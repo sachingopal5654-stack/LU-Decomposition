@@ -13,7 +13,8 @@ To write a program to find the LU Decomposition of a matrix.
 2. Bring lu from scipy.linalg to handle the actual matrix decomposition
 3. Call the lu(A) function. This splits the target matrix into three seperate output matrices P,L and U
 4. End the program
-   5(b)
+
+5(b)
 1. Import numpy for multi-dimensional array operation
 2. Bring lu from scipy.linalg to handle the actual matrix decompostion
 3. Pass the factorized compomemts(lu,p) along with the right-hand side matrix b into the lu_solve() function to compute the solution matrix
