@@ -20,16 +20,27 @@ To write a program to find the LU Decomposition of a matrix.
 3. Pass the factorized compomemts(lu,p) along with the right-hand side matrix b into the lu_solve() function to compute the solution matrix
 ## Program:
 (i) 5(a)To find the L and U matrix
+
 Program to find L and U matrix using LU decomposition.
+
 Developed by: Sachin G
+
 RegisterNumber: 26011448 
+
 import os
+
 os.environ["OPENBLAS_NUM_THREADS"]="1"
+
 import numpy as np
+
 from scipy.linalg import lu
+
 A=np.array(eval(input()))
+
 P,L,U=lu(A)
+
 print(L)
+
 print(U)
 
 (ii) 5(b)To find the LU Decomposition of a matrix
